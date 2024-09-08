@@ -12,7 +12,7 @@ export function alerta(mensaje, icono, id =''){
 }
 
 function onfocus(id){
-        if (id == ''){
+        if (id === ''){
                 document.getElementById(id).focus();
         }
 }
